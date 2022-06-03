@@ -1,2 +1,2 @@
-#/bin/bash
+#!/bin/bash
 gcc -c --save-temps 0-main.c
