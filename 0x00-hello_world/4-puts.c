@@ -1,9 +1,14 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * main -entrypoint
- * Return - always (0) Success
- */
+ *
+ *  * main - Entry point
+ *
+ *   *
+ *
+ *    * Return: Always 0 (Success)
+ *
+ *     */
 int main(void)
 {
 	char str1[] = "\"Programming is like building a multilingual puzzle";
