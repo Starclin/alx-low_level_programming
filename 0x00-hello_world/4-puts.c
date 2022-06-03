@@ -2,6 +2,7 @@
 #include <string.h>
 /**
  * main -entrypoint
+ * Return - always (0) Success
  */
 int main(void)
 {
