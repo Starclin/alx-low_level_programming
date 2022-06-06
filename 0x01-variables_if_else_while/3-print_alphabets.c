@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	const char *text = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\n"
+	const char *text = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPWRSTUVWXYZ\n";
 	int i;
 
 	for (i = 0; text[i] != 0; i++)
