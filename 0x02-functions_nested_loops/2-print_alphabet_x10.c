@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * print_alphabetx10 - Entry Point
+ * print_alphabet_x10 - Entry Point
  *
  * Return: 0 (Success)
  */
-void print_alphabetx10(void)
+void print_alphabet_x10(void)
 {
 	int a = 0;
 
