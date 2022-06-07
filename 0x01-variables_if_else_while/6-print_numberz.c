@@ -9,14 +9,12 @@
  */
 int main(void)
 {
-	char c = '0';
-
-	while (c <= '9')
+	const char *text = "0123456789\n";
+	int i;
+	
+	for (i = 0; text[i] != 0; i++)
 	{
-		putchar(c);
-		c++;
+		putchar(text[i]);
 	}
-
-	putchar('\n');
 	return (0);
 }
