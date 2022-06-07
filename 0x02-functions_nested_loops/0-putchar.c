@@ -10,7 +10,7 @@ int main(void)
 	const char *text = "_putchar\n";
 	int i;
 
-	for (i = 0, text[i] != 0, i++)
+	for (i = 0; text[i] != 0; i++)
 	{
 		putchar(text[i]);
 	}
