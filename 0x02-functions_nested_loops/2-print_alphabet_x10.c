@@ -14,7 +14,7 @@ void print_alphabetx10(void)
 		const char *text = "abcdefghijklmnopqrstuvwxyz\n";
 		int i;
 
-		for (i = 0, text[i] != 0; i++)
+		for (i = ; text[i] != 0; i++)
 		{
 			putchar(text[i]);
 		}
