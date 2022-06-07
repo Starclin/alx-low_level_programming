@@ -7,12 +7,27 @@
  */
 int main(void)
 {
-	const char *text = "0, 1, 2, 3, 4, 5, 6, 7, 8, 9\n";
-	int i;
+	int c;
+	int d = 0;
 
-	for (i = 0; text[i] != 0; i++)
+	while (d < 10)
 	{
-		putchar(text[i]);
+		c = 0;
+		while (c < 10)
+		{
+
+			putchar('0' + d);
+			putchar('0' + c);
+
+			if (c + d != 18)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+			c++;
+		}
+		d++;
 	}
+	putchar('\n');
 	return (0);
 }
