@@ -1,9 +1,9 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * _islower - Entry Point
  *
- * Return:0 or 1 (Success)
+ * Return:0 or 1 
  */
 int _islower(int c)
 {
