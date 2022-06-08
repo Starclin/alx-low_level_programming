@@ -1,30 +1,30 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * print_sign - Entry Point
- * @n : number for sign convention
- * Return: 0 or 1 or -1
+ * print_sign - check numers
+ * @n : number to check
+ * Return:0 or 1
  */
+
 int print_sign(int n)
 {
-	char c = '+';
-	char d = '0';
-	char e = '-';
+int test;
 
-	if (n > 0)
-	{
-		putchar(c);
-		return (1);
-	}
-	else if (n == 0)
-	{
-		putchar(d);
-		return (0);
-	}
-	else if (n < 0)
-	{
-		putchar(e);
-		return(-1);
-	}
-	return (0);
+if (n > 0)
+{
+	test = 1;
+	_putchar('+');
+}
+else if (n == 0)
+{
+	test = 0;
+	_putchar('0');
+}
+else
+{
+	test = -1;
+	_putchar('-');
+}
+
+return (test);
 }
