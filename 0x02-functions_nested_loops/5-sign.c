@@ -8,4 +8,26 @@
 int print_sign(int n)
 {
 	char c = '+';
+<<<<<<< HEAD
 	char d = '
+=======
+	char d = '0';
+	char e = '-';
+
+	if (n > 0)
+	{
+		putchar(c);
+		return (1);
+	}
+	else if (n == 0)
+	{
+		putchar(d);
+		return (0);
+	}
+	else if (n < 0)
+	{
+		putchar(e);
+		return(-1);
+	}
+}
+>>>>>>> 76c50a375a64d86e7c96e0af124d31654ee7664c
