@@ -2,10 +2,10 @@
 
 /**
  * _islower - Entry Point
- *
- * Return: 0 or 1 
+ * @c : character check for c
+ * Return: 0 or 1
  */
 int _islower(int c)
 {
-	return(c >= 97 && c <= 122);
+	return (c >= 97 && c <= 122);
 }
