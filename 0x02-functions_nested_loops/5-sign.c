@@ -8,9 +8,6 @@
 int print_sign(int n)
 {
 	char c = '+';
-<<<<<<< HEAD
-	char d = '
-=======
 	char d = '0';
 	char e = '-';
 
@@ -30,4 +27,3 @@ int print_sign(int n)
 		return(-1);
 	}
 }
->>>>>>> 76c50a375a64d86e7c96e0af124d31654ee7664c
