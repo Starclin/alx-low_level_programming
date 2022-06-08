@@ -2,7 +2,7 @@
 
 /**
  * _abs - return abs value
- * @n : number to check
+ * @n : number to confirm
  * Return:0 or 1
  */
 
