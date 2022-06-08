@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_last_digit - return last digit
- * @n : number to check
+ * @n : number to confirm
  * Return:0 or 1
  */
 
