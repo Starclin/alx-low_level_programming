@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - Entry Point
- * @c - character check for case
+ * @c : character check for case
  * Return: 0 or 1
  */
 int _isalpha(int c)
