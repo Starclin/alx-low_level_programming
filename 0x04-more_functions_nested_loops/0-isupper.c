@@ -2,7 +2,8 @@
 
 /**
  * _isupper - Check if is upper ASCII
- * Return: 0 or 1 
+ * @c: check value
+ * Return: 0 or 1
  */
 int _isupper(int c)
 {
