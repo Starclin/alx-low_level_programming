@@ -4,7 +4,7 @@
  * print_diagonal - Prints a diagonal n number of times
  * @n: number of times diagonal is to be printed
  */
-void print_line(int n)
+void print_diagonal(int n)
 {
 	while (n != 0 && n > 0)
 	{
