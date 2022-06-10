@@ -1,40 +1,30 @@
 #include "main.h"
 
 /**
- * print_diagonal - Prints a diagonal n number of times
- * @n: number of times diagonal is to be printed
+ * print_diagonal - check for a digit
+ * @n : number of \\ to be printed
+ * Return:void
  */
+
 void print_diagonal(int n)
 {
-	while (n != 0 && n > 0)
-	{
-		const char *t = "\\";
-		int i;
 
-		for (i = 0; t[i] != 0; i++)
-		{
-			putchar(t[i]);
-		}
-		n--;
-	}
-	if (n != 0)
-	{
-		const char *ne = "\n";
-		int j;
+	int i = 0, ii;
 
-		for (j = 0; ne[j] != 0; j++)
-		{
-			putchar(ne[j]);
-		}
-	}
-	else if (n <= 0)
+	while (i < n && n > 0)
 	{
-		const char *news = "\n";
-		int k;
-
-		for (k = 0; news[k] != 0; k++)
+		ii = 0;
+		while (ii < i)
 		{
-			putchar(news[k]);
+			_putchar(' ');
+			ii++;
 		}
+
+		_putchar('\\');
+		_putchar('\n');
+		i++;
 	}
+	if (i == 0)
+		_putchar('\n');
+
 }
