@@ -8,9 +8,9 @@ void print_numbers(void)
 	const char *text = "0123456789\n";
 	int i;
 
-	for (i = 0, text[i] != 0, i++)
+	for (i = 0; text[i] != 0 ; i++)
 	{
-		_putchar(text[i]);
+		putchar(text[i]);
 	}
 }
 
