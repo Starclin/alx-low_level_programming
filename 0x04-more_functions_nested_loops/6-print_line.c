@@ -6,7 +6,7 @@
  */
 void print_line(int n)
 {
-	while (n != 0)
+	while (n != 0 && n > 0)
 	{
 		const char *t = "_";
 		int i;
@@ -15,19 +15,19 @@ void print_line(int n)
 		{
 			putchar(t[i]);
 		}
-		n--
+		n--;
 	}
 	if (n != 0)
 	{
-		const char *new = "\n";
+		const char *ne = "\n";
 		int j;
 
-		for (j = 0; new[j] != 0; j++)
+		for (j = 0; ne[j] != 0; j++)
 		{
-			putchar(new[j]);
+			putchar(ne[j]);
 		}
 	}
-	if (n <= 0)
+	else if (n <= 0)
 	{
 		const char *news = "\n";
 		int k;
