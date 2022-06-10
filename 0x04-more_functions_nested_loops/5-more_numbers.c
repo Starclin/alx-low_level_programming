@@ -9,7 +9,7 @@ void more_numbers(void)
 
 	while (count < 10)
 	{
-		const char *text = "01356789\n";
+		const char *text = "01234567891011121314\n";
 		int i;
 
 		for (i = 0; text[i] != 0 ; i++)
