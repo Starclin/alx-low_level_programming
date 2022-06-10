@@ -10,7 +10,7 @@ void print_numbers(void)
 
 	for (i = 0, text[i] != 0, i++)
 	{
-		putchar(text[i]);
+		_putchar(text[i]);
 	}
 }
 
