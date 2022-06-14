@@ -14,4 +14,3 @@ while (s[i])
 
 return (i);
 }
-© 2022 GitHub, Inc.
