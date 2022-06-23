@@ -2,6 +2,7 @@
 
 /*
  * _puts_recursion - puts a string to stdout
+ * @s - char to be printed
  */
 void _puts_recursion(char *s)
 {
