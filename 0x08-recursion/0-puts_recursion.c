@@ -2,7 +2,7 @@
 
 /*
  * _puts_recursion - puts a string to stdout
- * @s - char to be printed
+ * @s:char to be printed
  * Return:void
  */
 void _puts_recursion(char *s)
